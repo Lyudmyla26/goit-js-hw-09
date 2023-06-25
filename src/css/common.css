@@ -10,9 +10,45 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: yellow;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+button {
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 5px;
+  outline: 1px solid blue;
+  background-color: aqua;
+}
+input {
+  margin-left: 38%;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blueviolet;
+  outline: 1px solid blue;
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 60px;
+}
+.field:hover {
+  background-color: blue;
+}
+.end {
+  color: red;
 }
